@@ -1,17 +1,17 @@
 // ===================================
 // CONFIGURAÇÃO DA PLANILHA (DUAS ABAS)
 // ===================================
-const SHEET_ID = '1r6NLcVkVLD5vp4UxPEa7TcreBpOd0qeNt-QREOG4Xr4';
+const SHEET_ID = '1Z9Uf5MGm5tClVDR95SUpwOjivAdqEVUfDj7mIuRLf4s';
 
-// ✅ CONFIGURAÇÃO DAS DUAS ABAS
+// ✅ CONFIGURAÇÃO DAS DUAS ABAS - PETROLÂNDIA
 const SHEETS = [
     {
-        name: 'PENDÊNCIAS ELDORADO',
-        url: `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent('PENDÊNCIAS ELDORADO')}`
+        name: 'PENDÊNCIAS PETROLANDIA',
+        url: `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=278071504`
     },
     {
         name: 'RESOLVIDOS',
-        url: `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent('RESOLVIDOS')}`
+        url: `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=1067061018`
     }
 ];
 
